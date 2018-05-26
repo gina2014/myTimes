@@ -1,4 +1,3 @@
-
 .bold {
   font-weight: bold;
 }
@@ -6,26 +5,45 @@
 .border {
     border: 1px solid black;
 }
-.header {
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
 
+.font-family {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+
+}
+
+.header {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 75px;
 }
 
 .logo {
   color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
-.nav {
+.image {
+  width: 80px;
+  height: 60px;
+  padding-left: 30px;
+}
+
+.logo span {
+  padding-left: 20px;
+}
+.nav span a{
   display: inline-block;
+  color: black;
+  padding-right: 30px;
 }
 
 .main {
   display: flex;
-}
-
-.column.large {
-  width: 630px;
 }
